@@ -8,6 +8,7 @@
 #magictech:hover{
     width: 500px;
     height:150px;
+    transition: 0.5s;
 
 }
 html{
@@ -25,6 +26,7 @@ html{
 #nextserver:hover{
     width: 500px;
     height:150px;
+    transition: 0.5s;
 }
 #choise{
     font-size: 5.0em;
