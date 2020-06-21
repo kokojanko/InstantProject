@@ -10,7 +10,7 @@
     position: absolute;
 }
 html{
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQqQI1tDNsheiJ_J1DEX-LSJhdr2soRv8Lo7m8fnyHa3yFbHq5r&usqp=CAU );
+    background-image: url(./фон.jpg);
     background-size: cover ;
 }
 .sidebar {
