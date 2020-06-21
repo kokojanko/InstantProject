@@ -168,7 +168,8 @@ html{
 }
 html{
     background-image: url(./png/фон.jpg);
-    background-size: 100%;
+    width: 100%;
+    height: 100%;
 }
 #nextserver{
     background-color: white;
