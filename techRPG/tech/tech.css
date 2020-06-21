@@ -81,3 +81,175 @@ html{
     font-size: 3.0em;
     margin-left: 450px;
 }
+@media screen and (max-width: 991px) {
+    #pngIC{
+        margin-left: 400px;
+        position: absolute;
+    }
+    html{
+        background-color: rgb(192, 192, 192);
+    
+    }
+    #description{
+        background-color: black;
+        width: 100%;
+        height: 400px;
+        border-radius: 20px;
+        margin-top: 220px;
+        position: absolute;
+        color: white;
+        font-size: 2em;
+    }
+    #techname{
+        font-size: 2.0em;
+        margin-left: 100px;
+        margin-top: 0px;
+    }
+    #secdes{
+        margin-left: 320px;
+        position: absolute;
+        margin-top: 150px;
+    }
+    #firstdes{
+        position: absolute;
+    }
+    #magicname{
+        font-size: 1.0em;
+        margin-left: 750px;
+        margin-top: 0px;
+    }
+    #thirddes{
+        margin-left: 730px;
+    }
+    .sidebar {
+        margin: 0;
+        padding: 0;
+        width: 200px;
+        position: fixed;
+        height: 240px;
+        overflow: auto;
+        width: 200px;
+        border-radius: 5px;
+        overflow: visible;
+        transform: translateX(-210px) ;
+        background-color: rgb(238, 255, 0);
+    }
+    
+    .sidebar:hover{
+        transform: translateX(1px);
+    }
+    .sidebar a {
+        display: block;
+        color: black;
+        padding: 16px;
+        text-decoration: none;
+    }
+    .sidebar a.play {
+        background-color: #4CAF50;
+        color: white;
+    }
+    .sidebar a:hover:not(.play) {
+        background-color: #555;
+        color: white;
+    }
+    .lll{
+        background-color: rgb(86, 0, 246);
+        height: 6px;
+        width: 30px;
+        margin-top: 4px;
+        margin-left: 210px;
+    }
+    #ip{
+        margin-top: 650px;
+        position: absolute;
+        font-size: 3.0em;
+        margin-left: 450px;
+    }
+}
+@media screen and (max-width: 767px) {
+    #pngIC{
+        margin-left: 250px;
+        position: absolute;
+    }
+    html{
+        background-color: rgb(192, 192, 192);
+    
+    }
+    #description{
+        background-color: black;
+        width: 100%;
+        height: 530px;
+        border-radius: 20px;
+        margin-top: 220px;
+        position: absolute;
+        color: white;
+        font-size: 2em;
+    }
+    #techname{
+        font-size: 1.0em;
+        margin-left: 100px;
+        margin-top: 0px;
+    }
+    #secdes{
+        font-size: 0.8em;
+        margin-left: 320px;
+        position: absolute;
+        margin-top: 60px;
+    }
+    #firstdes{
+        position: absolute;
+        font-size: 0.8em;
+    }
+    #magicname{
+        font-size: 1.0em;
+        margin-left: 50px;
+        margin-top: 250px;
+    }
+    #thirddes{
+        margin-left: 50px;
+    }
+    .sidebar {
+        margin: 0;
+        padding: 0;
+        width: 200px;
+        position: fixed;
+        height: 240px;
+        overflow: auto;
+        width: 200px;
+        border-radius: 5px;
+        overflow: visible;
+        transform: translateX(-210px) ;
+        background-color: rgb(238, 255, 0);
+    }
+    
+    .sidebar:hover{
+        transform: translateX(1px);
+    }
+    .sidebar a {
+        display: block;
+        color: black;
+        padding: 16px;
+        text-decoration: none;
+    }
+    .sidebar a.play {
+        background-color: #4CAF50;
+        color: white;
+    }
+    .sidebar a:hover:not(.play) {
+        background-color: #555;
+        color: white;
+    }
+    .lll{
+        background-color: rgb(86, 0, 246);
+        height: 6px;
+        width: 30px;
+        margin-top: 4px;
+        margin-left: 210px;
+    }
+    #ip{
+        margin-top: 800px;
+        position: absolute;
+        font-size: 3.0em;
+        margin-left: 50px;
+    }
+}
