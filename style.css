@@ -1,27 +1,21 @@
-#logo2{
-    margin-left: 840px;
-    position: absolute;
-}
 #logo{
     position: absolute;
-    margin-top: 330px;
-    transform: translateX(-60px);
+    margin-top: 60px;
+    transform: translateX(440px);
 }
 #magictech{
-    margin-left: 100px;
-    margin-top: 250px;
-    width: 400px;
-    height:120px;
+    margin-left: 60px;
+    margin-top: 120px;
     position: absolute;
 }
 #magictech:hover{
     width: 500px;
-    height:150px;
+    height:500px;
     transition: 0.5s;
 
 }
-html{
-    background-image: url(./png/фон.jpg);
+body{
+    background: url(./png/background.jpg) no-repeat ;
     background-size: 100%;
 }
 #nextserver{
@@ -89,20 +83,18 @@ html{
         margin-left: 340px;
     }
     #magictech{
-        margin-left: 100px;
-        margin-top: 250px;
-        width: 290px;
-        height:100px;
+        margin-left: 00px;
+        margin-top: 100px;
         position: absolute;
+
     }
     #magictech:hover{
-        width: 290px;
-        height:100px;
-        transition: 0.5s;
-    
+        width: 400px;
+        height:400px;
+        transition: 0s;
     }
-    html{
-        background-image: url(./png/фон.jpg);
+    body{
+        background: url(./png/background.jpg) no-repeat;
         background-size: 100%;
     }
     #nextserver{
@@ -126,44 +118,6 @@ html{
         margin-top: 30px;
     }
     
-    .sidebar {
-        margin: 0;
-        padding: 0;
-        width: 200px;
-        position: fixed;
-        height: 240px;
-        overflow: auto;
-        width: 200px;
-        border-radius: 5px;
-        overflow: visible;
-        transform: translateX(-210px) ;
-        background-color: rgb(238, 255, 0);
-    }
-    
-    .sidebar:hover{
-        transform: translateX(1px);
-    }
-    .sidebar a {
-        display: block;
-        color: black;
-        padding: 16px;
-        text-decoration: none;
-    }
-    .sidebar a.play {
-        background-color: #4CAF50;
-        color: white;
-    }
-    .sidebar a:hover:not(.play) {
-        background-color: #555;
-        color: white;
-    }
-    .lll{
-        background-color: rgb(86, 0, 246);
-        height: 5px;
-        width: 30px;
-        margin-top: 5px;
-        margin-left: 210px;
-    }
 } 
  /* стили для средних планшетов */
 @media screen and (max-width: 767px) {
@@ -176,20 +130,17 @@ html{
     #magictech{
     margin-left: 50px;
     margin-top: 250px;
-    width: 250px;
-    height:60px;
     position: absolute;
 }
 #magictech:hover{
-    width: 250px;
-    height:60px;
+    width: 400px;
+    height:400px;
     transition: 0.5s; 
 
 }
-html{
-    background-image: url(./png/фон.jpg);
-    width: 100%;
-    height: 100%;
+body{
+    background: url(./png/background.jpg) no-repeat;
+    background-size: cover;
 }
 #nextserver{
     background-color: white;
@@ -211,43 +162,4 @@ html{
     text-align: center;
     margin-top: 30px;
 }
-
-.sidebar {
-    margin: 0;
-    padding: 0;
-    width: 200px;
-    position: fixed;
-    height: 240px;
-    overflow: auto;
-    width: 200px;
-    border-radius: 5px;
-    overflow: visible;
-    transform: translateX(-210px) ;
-    background-color: rgb(238, 255, 0);
-}
-
-.sidebar:hover{
-    transform: translateX(1px);
-}
-.sidebar a {
-    display: block;
-    color: black;
-    padding: 16px;
-    text-decoration: none;
-}
-.sidebar a.play {
-    background-color: #4CAF50;
-    color: white;
-}
-.sidebar a:hover:not(.play) {
-    background-color: #555;
-    color: white;
-}
-.lll{
-    background-color: rgb(86, 0, 246);
-    height: 5px;
-    width: 30px;
-    margin-top: 5px;
-    margin-left: 210px;
-}    
 }
