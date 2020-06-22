@@ -1,6 +1,6 @@
-html{
-    background-image: url(./png/фон.jpg);
-    background-size: 100%;
+body{
+    background: url(./png/фон.jpg) no-repeat;
+    background-size: cover;
 }
 .sidebar {
     margin: 0;
@@ -53,47 +53,9 @@ html{
 
 /* стили для больших планшетов  */
 @media screen and (max-width: 991px) {
-    html{
-        background-image: url(./png/фон.jpg);
-        background-size: 100%;
-    }
-    .sidebar {
-        margin: 0;
-        padding: 0;
-        width: 200px;
-        position: fixed;
-        height: 240px;
-        overflow: auto;
-        width: 200px;
-        border-radius: 5px;
-        overflow: visible;
-        transform: translateX(-210px) ;
-        background-color: rgb(238, 255, 0);
-    }
-    
-    .sidebar:hover{
-        transform: translateX(1px);
-    }
-    .sidebar a {
-        display: block;
-        color: black;
-        padding: 16px;
-        text-decoration: none;
-    }
-    .sidebar a.play {
-        background-color: #4CAF50;
-        color: white;
-    }
-    .sidebar a:hover:not(.play) {
-        background-color: #555;
-        color: white;
-    }
-    .lll{
-        background-color: rgb(86, 0, 246);
-        height: 6px;
-        width: 30px;
-        margin-top: 4px;
-        margin-left: 210px;
+    body{
+        background: url(./png/фон.jpg) no-repeat;
+        background-size: cover;
     }
     
     #discription{
@@ -102,60 +64,21 @@ html{
     }
     #playpng{
         position: absolute;
-        margin-left: 450px;
+        margin-left: 250px;
     }
 }
 /* стили для средних планшетов */
 @media screen and (max-width: 767px) {
-    html{
-        background-image: url(./png/фон.jpg);
-        background-size: 100%;
+    body{
+        background: url(./png/фон.jpg) no-repeat;
+        background-size: cover;
     }
-    .sidebar {
-        margin: 0;
-        padding: 0;
-        width: 200px;
-        position: fixed;
-        height: 240px;
-        overflow: auto;
-        width: 200px;
-        border-radius: 5px;
-        overflow: visible;
-        transform: translateX(-210px) ;
-        background-color: rgb(238, 255, 0);
-    }
-    
-    .sidebar:hover{
-        transform: translateX(1px);
-    }
-    .sidebar a {
-        display: block;
-        color: black;
-        padding: 16px;
-        text-decoration: none;
-    }
-    .sidebar a.play {
-        background-color: #4CAF50;
-        color: white;
-    }
-    .sidebar a:hover:not(.play) {
-        background-color: #555;
-        color: white;
-    }
-    .lll{
-        background-color: rgb(86, 0, 246);
-        height: 6px;
-        width: 30px;
-        margin-top: 4px;
-        margin-left: 210px;
-    }
-    
     #discription{
         font-size: 1.5em;
         padding-top: 250px;
     }
     #playpng{
         position: absolute;
-        margin-left: 0px;
+        margin-left: 170px;
     }
     }

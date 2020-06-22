@@ -2,7 +2,7 @@
     margin-left: 500px;
     position: absolute;
 }
-html{
+body{
     background-color: rgb(192, 192, 192);
 
 }
@@ -86,7 +86,7 @@ html{
         margin-left: 400px;
         position: absolute;
     }
-    html{
+    body{
         background-color: rgb(192, 192, 192);
     
     }
@@ -121,44 +121,6 @@ html{
     #thirddes{
         margin-left: 730px;
     }
-    .sidebar {
-        margin: 0;
-        padding: 0;
-        width: 200px;
-        position: fixed;
-        height: 240px;
-        overflow: auto;
-        width: 200px;
-        border-radius: 5px;
-        overflow: visible;
-        transform: translateX(-210px) ;
-        background-color: rgb(238, 255, 0);
-    }
-    
-    .sidebar:hover{
-        transform: translateX(1px);
-    }
-    .sidebar a {
-        display: block;
-        color: black;
-        padding: 16px;
-        text-decoration: none;
-    }
-    .sidebar a.play {
-        background-color: #4CAF50;
-        color: white;
-    }
-    .sidebar a:hover:not(.play) {
-        background-color: #555;
-        color: white;
-    }
-    .lll{
-        background-color: rgb(86, 0, 246);
-        height: 6px;
-        width: 30px;
-        margin-top: 4px;
-        margin-left: 210px;
-    }
     #ip{
         margin-top: 650px;
         position: absolute;
@@ -171,7 +133,7 @@ html{
         margin-left: 250px;
         position: absolute;
     }
-    html{
+    body{
         background-color: rgb(192, 192, 192);
     
     }
@@ -208,44 +170,7 @@ html{
     #thirddes{
         margin-left: 50px;
     }
-    .sidebar {
-        margin: 0;
-        padding: 0;
-        width: 200px;
-        position: fixed;
-        height: 240px;
-        overflow: auto;
-        width: 200px;
-        border-radius: 5px;
-        overflow: visible;
-        transform: translateX(-210px) ;
-        background-color: rgb(238, 255, 0);
-    }
-    
-    .sidebar:hover{
-        transform: translateX(1px);
-    }
-    .sidebar a {
-        display: block;
-        color: black;
-        padding: 16px;
-        text-decoration: none;
-    }
-    .sidebar a.play {
-        background-color: #4CAF50;
-        color: white;
-    }
-    .sidebar a:hover:not(.play) {
-        background-color: #555;
-        color: white;
-    }
-    .lll{
-        background-color: rgb(86, 0, 246);
-        height: 6px;
-        width: 30px;
-        margin-top: 4px;
-        margin-left: 210px;
-    }
+
     #ip{
         margin-top: 800px;
         position: absolute;
