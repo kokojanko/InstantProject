@@ -1,24 +1,7 @@
 #play{
     margin-left: 450px;
     position: absolute;
-}
-#leftplay{
-    position: absolute;
-    padding-left: 485px;
-    transform: rotate(16deg) translateY(-40px);
-    font-size: 4.6em;
-    text-decoration: none;
-    width: 100px;
-    height: 100px;
-    color: rgb(21, 54, 153); 
-}
-#rightplay{
-    position: absolute;
-    padding-left: 650px;
-    transform: rotate(-16deg) translateY(125px);
-    font-size: 4.6em;
-    text-decoration: none;
-    color: rgb(21, 54, 153);
+    transform: translateY(-50px);
 }
 html{
     background-color: silver;
@@ -27,7 +10,7 @@ html{
 }
 #description{
     font-size: 3.0em;
-    margin-top: 220px;
+    margin-top: 260px;
     position: absolute;
 }
 .sidebar {
@@ -74,24 +57,6 @@ html{
 #play{
     margin-left: 450px;
     position: absolute;
-}
-#leftplay{
-    position: absolute;
-    padding-left: 485px;
-    transform: rotate(16deg) translateY(-40px);
-    font-size: 4.6em;
-    text-decoration: none;
-    width: 100px;
-    height: 100px;
-    color: rgb(21, 54, 153); 
-}
-#rightplay{
-    position: absolute;
-    padding-left: 650px;
-    transform: rotate(-16deg) translateY(125px);
-    font-size: 4.6em;
-    text-decoration: none;
-    color: rgb(21, 54, 153);
 }
 html{
     background-color: silver;
@@ -146,24 +111,6 @@ html{
     #play{
         margin-left: 250px;
         position: absolute;
-    }
-    #leftplay{
-        position: absolute;
-        padding-left: 285px;
-        transform: rotate(16deg) translateY(-15px);
-        font-size: 4.6em;
-        text-decoration: none;
-        width: 100px;
-        height: 100px;
-        color: rgb(21, 54, 153); 
-    }
-    #rightplay{
-        position: absolute;
-        padding-left: 450px;
-        transform: rotate(-16deg) translateY(100px);
-        font-size: 4.6em;
-        text-decoration: none;
-        color: rgb(21, 54, 153);
     }
     html{
         background-color: silver;

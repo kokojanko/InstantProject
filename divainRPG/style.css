@@ -48,24 +48,7 @@ html{
 #playpng{
     position: absolute;
     margin-left: 450px;
-}
-#leftplay{
-    position: absolute;
-    padding-left: 485px;
-    transform: rotate(16deg) translateY(-40px);
-    font-size: 4.6em;
-    text-decoration: none;
-    width: 100px;
-    height: 100px;
-    color: rgb(21, 54, 153); 
-}
-#rightplay{
-    position: absolute;
-    padding-left: 650px;
-    transform: rotate(-16deg) translateY(125px);
-    font-size: 4.6em;
-    text-decoration: none;
-    color: rgb(21, 54, 153);
+    transform: translateY(-40px);
 }
 
 /* стили для больших планшетов  */
@@ -121,24 +104,6 @@ html{
         position: absolute;
         margin-left: 450px;
     }
-    #leftplay{
-        position: absolute;
-        padding-left: 485px;
-        transform: rotate(16deg) translateY(-40px);
-        font-size: 4.6em;
-        text-decoration: none;
-        width: 100px;
-        height: 100px;
-        color: rgb(21, 54, 153); 
-    }
-    #rightplay{
-        position: absolute;
-        padding-left: 650px;
-        transform: rotate(-16deg) translateY(125px);
-        font-size: 4.6em;
-        text-decoration: none;
-        color: rgb(21, 54, 153);
-    }
 }
 /* стили для средних планшетов */
 @media screen and (max-width: 767px) {
@@ -192,23 +157,5 @@ html{
     #playpng{
         position: absolute;
         margin-left: 250px;
-    }
-    #leftplay{
-        position: absolute;
-        padding-left: 285px;
-        transform: rotate(16deg) translateY(-15px);
-        font-size: 4.6em;
-        text-decoration: none;
-        width: 100px;
-        height: 100px;
-        color: rgb(21, 54, 153); 
-    }
-    #rightplay{
-        position: absolute;
-        padding-left: 450px;
-        transform: rotate(-16deg) translateY(100px);
-        font-size: 4.6em;
-        text-decoration: none;
-        color: rgb(21, 54, 153);
     }
     }

@@ -1,3 +1,12 @@
+#logo2{
+    margin-left: 840px;
+    position: absolute;
+}
+#logo{
+    position: absolute;
+    margin-top: 330px;
+    transform: translateX(-60px);
+}
 #magictech{
     margin-left: 100px;
     margin-top: 250px;
@@ -153,6 +162,12 @@ html{
 } 
  /* стили для средних планшетов */
 @media screen and (max-width: 767px) {
+    #logo{
+        margin-left: 250px;
+        margin-top: 0px;
+        transform: translateY(-15px);
+
+    }
     #magictech{
     margin-left: 50px;
     margin-top: 250px;
